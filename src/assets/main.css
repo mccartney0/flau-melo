@@ -1,0 +1,10 @@
+@import './base.css';
+
+#app {
+  max-width: 100lvw;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+@media (hover: hover) {
+}
