@@ -6,17 +6,9 @@
 <template>
   <HeaderMenu />
 
-  <main>
-    <RouterView />
-  </main>
+  <RouterView />
 
   <footer>
     Footer
   </footer>
 </template>
-
-<style lang="scss" scoped>
-  main {
-    height: calc(100vh - var(--navigation-height));
-  }
-</style>
