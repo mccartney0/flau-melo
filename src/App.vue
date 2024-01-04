@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
-import BannerIntro from './components/BannerIntro.vue';
+  import { RouterView } from 'vue-router'
+  import HeaderMenu from './components/HeaderMenu.vue';
 </script>
 
 <template>
-  <BannerIntro />
+  <HeaderMenu />
 
   <main>
     <RouterView />
@@ -14,3 +14,9 @@ import BannerIntro from './components/BannerIntro.vue';
     Footer
   </footer>
 </template>
+
+<style lang="scss" scoped>
+  main {
+    height: calc(100vh - var(--navigation-height));
+  }
+</style>
