@@ -1,8 +1,9 @@
 <script setup lang="ts">
+  import BannerIntro from '@/components/BannerIntro.vue';
 </script>
 
 <template>
   <div class="home">
-    <h1>This is an home page</h1>
+    <BannerIntro />
   </div>
 </template>
