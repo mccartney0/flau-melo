@@ -38,7 +38,7 @@
       }
 
       .banner-message {
-        width: 30vw;
+        width: 460px;
         color: var(--vt-c-black-soft);
         font-weight: 600;
       }
