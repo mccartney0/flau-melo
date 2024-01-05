@@ -4,11 +4,29 @@
 </script>
 
 <template>
-  <HeaderMenu />
+  <div class="app-container">
+    <HeaderMenu />
+    
+    <div class="router-container">
+      <RouterView />
+    </div>
 
-  <RouterView />
-
-  <footer>
-    Footer
-  </footer>
+    <footer>
+      Footer
+    </footer>
+  </div>
 </template>
+
+<style scoped>
+  @media (min-width: 1400px) {
+    .app-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .router-container {
+      width: 1400px;
+    }
+  }
+</style>
