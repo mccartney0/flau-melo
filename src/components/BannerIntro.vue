@@ -5,10 +5,10 @@
 
 <template>
   <div class="wrapper-banner-intro">
-    <div class="banner flex justify-evenly items-center">
+    <div class="banner flex justify-around items-center">
       <img class="background-image" src="@/assets/bg.png" alt="Background">
 
-      <div class="mt-6">
+      <div>
         <div class="banner-message mb-10 text-2xl">
           Nosso objetivo é guiá-lo(a) na jornada
           de transformação, capacitando-o(a)
@@ -19,8 +19,8 @@
         <ButtonHighlight link="#products" buttonLabel="Conheça o que oferecemos" />
       </div>
 
-      <div class="flaudiene-image mt-28">
-        <img src="@/assets/flaudiene-corpo-inteiro.png" alt="Flaudiene Melo">
+      <div class="image-container mt-28">
+        <img class="flaudiene-image" src="@/assets/flaudiene-corpo-inteiro.png" alt="Flaudiene Melo">
       </div>
     </div>
   </div>
@@ -32,7 +32,7 @@
       .background-image {
         position: absolute;
         top: 0;
-        height: 100vh;
+        height: 900px;
         width: 100%;
         z-index: -1;
       }

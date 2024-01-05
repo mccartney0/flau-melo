@@ -37,5 +37,12 @@
         }
       }
     }
+
+  }
+
+  @media (min-width: 1400px) {
+    nav {
+      width: 1400px;
+    }
   }
 </style>
