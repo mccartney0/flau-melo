@@ -13,6 +13,7 @@ const currentYear = new Date().getFullYear();
 <style lang="scss" scoped>
   footer {
     background-color: var(--vt-c-white-soft);
+    width: 100%;
 
     img {
       max-width: 106px;
