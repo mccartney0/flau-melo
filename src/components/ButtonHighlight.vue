@@ -2,6 +2,7 @@
 defineProps<{
   link: string,
   buttonLabel: string,
+  target: string,
 }>()
 </script>
 
@@ -9,6 +10,7 @@ defineProps<{
   <a
     :href="link"
     class="wrapper-button-highlight button-highlight p-3 rounded-lg"
+    :target="target"
   >
     {{ buttonLabel }}
   </a>

@@ -16,7 +16,11 @@
           o sucesso em todas as áreas da vida.
         </div>
 
-        <ButtonHighlight link="#products" buttonLabel="Conheça o que oferecemos" />
+        <ButtonHighlight
+          link="#products"
+          buttonLabel="Conheça o que oferecemos"
+          target="_self"
+        />
       </div>
 
       <div class="image-container mt-28">
