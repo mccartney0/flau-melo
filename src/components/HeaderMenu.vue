@@ -11,10 +11,10 @@
       </div>
 
       <div class="links flex items-center justify-evenly">
-        <RouterLink to="/" class="nav-link">Home</RouterLink>
-        <RouterLink to="/mentorias" class="nav-link">Mentorias</RouterLink>
-        <RouterLink to="/clientes" class="nav-link">Clientes</RouterLink>
-        <RouterLink to="/sobre" class="nav-link">Sobre</RouterLink>
+        <a href="#" class="nav-link">Home</a>
+        <a href="#mentorias" class="nav-link">Mentorias</a>
+        <a href="#clientes" class="nav-link">Clientes</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
         <ButtonHighlight
           buttonLabel="FALE COM ESPECIALISTA"
           link="https://api.whatsapp.com/send?phone=556699529479&text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20um%20pouco%20mais%20sobre%20os%20treinamentos."

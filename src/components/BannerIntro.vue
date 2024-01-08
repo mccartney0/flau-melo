@@ -17,7 +17,7 @@
         </div>
 
         <ButtonHighlight
-          link="#products"
+          link="#mentorias"
           buttonLabel="Conheça o que oferecemos"
           target="_self"
         />

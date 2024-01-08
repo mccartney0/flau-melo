@@ -2,7 +2,7 @@
   import { ref } from 'vue';
   import AccordionItem from './AccordionItem.vue';
 
-  const products = ref([
+  const mentorias = ref([
     {
       id: 1,
       label: 'Life Coaching incluso um emotional intelligence',
@@ -45,11 +45,11 @@
       </div>
 
       <AccordionItem
-        v-for="product in products"
-        :key="product.id"
-        :id="product.id"
-        :label="product.label"
-        :content="product.content"
+        v-for="mentoria in mentorias"
+        :key="mentoria.id"
+        :id="mentoria.id"
+        :label="mentoria.label"
+        :content="mentoria.content"
       />
     </div>
   </div>

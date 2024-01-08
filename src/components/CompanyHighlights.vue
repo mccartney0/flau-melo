@@ -6,7 +6,12 @@
     <div class="first-box flex justify-center items-center">
       <div class="box-container">
         <div class="title mb-6">
-          <a class="contact-link" href="http://whats" target="_blank" rel="noopener noreferrer">
+          <a
+            class="contact-link"
+            href="https://api.whatsapp.com/send?phone=556699529479&text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20um%20pouco%20mais%20sobre%20os%20treinamentos."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             ENTRE EM CONTATO
           </a>
         </div>
@@ -28,7 +33,14 @@
         <p>Treinamentos</p>
 
         <div class="content flex justify-center">
-          <a href="#products" class="more-button mt-10">Saiba mais</a>
+          <a
+            class="more-button mt-10"
+            href="https://api.whatsapp.com/send?phone=556699529479&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20sobre%20seus%20treinamentos."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Saiba mais
+          </a>
         </div>
       </div>
     </div>

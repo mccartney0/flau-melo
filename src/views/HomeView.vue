@@ -8,7 +8,7 @@
 <template>
   <div class="home">
     <BannerIntro />
-    <CompanyHighlights id="products"/>
+    <CompanyHighlights id="mentorias"/>
     <SuccessPaths />
     <MeetYourProfile />
   </div>
