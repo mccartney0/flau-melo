@@ -32,11 +32,15 @@
 </script>
 
 <template>
-  <div class="wrapper-success-paths mt-28 gap-20 flex justify-around">
+  <div class="wrapper-success-paths gap-20 flex justify-around">
     <img class="flaudiene-image-2" src="@/assets/flaudiene-corpo-inteiro-2.png" alt="">
 
     <div class="success-paths-container">
-      <div class="container-title mb-28">
+      <div class="square-container">
+        <img class="two-squares" src="@/assets/two-square.svg" alt="Squares">
+      </div>
+
+      <div class="title-container mb-28">
         Caminhos para o Sucesso
       </div>
 
@@ -53,15 +57,36 @@
 
 <style lang="scss" scoped>
 .wrapper-success-paths {
+  margin-top: 290px;
+
   .flaudiene-image-2 {
     height: max-content;
   }
 
   .success-paths-container {
-    .container-title {
+    position: relative;
+    
+    .square-container {
+      position: absolute;
+      top: -130px;
+      right: 0;
+    }
+
+    .title-container {
       color: var(--vt-c-black-soft);
       font-size: 3rem;
       font-weight: 500;
+      
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .wrapper-success-paths {
+    .success-paths-container {
+      .square-container {
+        right: -90px;
+      }
     }
   }
 }
