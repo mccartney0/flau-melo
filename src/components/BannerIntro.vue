@@ -8,7 +8,7 @@
     <div class="banner flex justify-around items-center">
       <img class="background-image" src="@/assets/bg.png" alt="Background">
 
-      <div>
+      <div class="banner-container">
         <div class="banner-message mb-10 text-2xl">
           Nosso objetivo é guiá-lo(a) na jornada
           de transformação, capacitando-o(a)
@@ -45,6 +45,34 @@
         width: 460px;
         color: var(--vt-c-black-soft);
         font-weight: 600;
+      }
+
+    }
+
+    @media (max-width: 767px) {
+      .banner {
+        flex-direction: column;
+
+        .banner-container {
+          margin-top: 70px;
+          margin-bottom: -60px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .banner-message {
+            width: 100vw;
+            font-size: 1.2rem;
+            text-align: center;
+          }
+        }
+      }
+
+      .image-container {
+        .flaudiene-image {
+          height: 350px;
+        }
       }
     }
   }

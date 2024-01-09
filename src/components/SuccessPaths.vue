@@ -56,38 +56,61 @@
 </template>
 
 <style lang="scss" scoped>
-.wrapper-success-paths {
-  margin-top: 290px;
-
-  .flaudiene-image-2 {
-    height: max-content;
-  }
-
-  .success-paths-container {
-    position: relative;
-    
-    .square-container {
-      position: absolute;
-      top: -130px;
-      right: 0;
-    }
-
-    .title-container {
-      color: var(--vt-c-black-soft);
-      font-size: 3rem;
-      font-weight: 500;
-      
-    }
-  }
-}
-
-@media (min-width: 1400px) {
   .wrapper-success-paths {
+    margin-top: 290px;
+
+    .flaudiene-image-2 {
+      height: max-content;
+    }
+
     .success-paths-container {
+      position: relative;
+      
       .square-container {
-        right: -90px;
+        position: absolute;
+        top: -130px;
+        right: 0;
+      }
+
+      .title-container {
+        color: var(--vt-c-black-soft);
+        font-size: 3rem;
+        font-weight: 500;
+        
       }
     }
   }
-}
+
+  @media (min-width: 1400px) {
+    .wrapper-success-paths {
+      .success-paths-container {
+        .square-container {
+          right: -90px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .wrapper-success-paths {
+      margin-top: 100px;
+      .flaudiene-image-2 {
+        display: none;
+      }
+      .success-paths-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        .title-container {
+          margin-bottom: 50px;
+          font-size: 2rem;
+        }
+        .square-container {
+          display: none;
+        }
+      }
+    }
+  }
 </style>
