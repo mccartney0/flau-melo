@@ -81,4 +81,15 @@ const setTabActive = (tab: number) => {
       transform: translateY(20px);
     }
   }
+
+  @media (max-width: 1024px) {
+    .accordion-item {
+      width: 90%;
+
+      .accordion-label,
+      .accordion-content {
+        text-align: center;
+      }
+    }
+  }
 </style>

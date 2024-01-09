@@ -136,4 +136,21 @@
       height: 360px;
     }
   }
+
+  @media (max-width: 968px) {
+    .wrapper-company-highlights {
+      width: 100%;
+      height: auto;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+
+      .first-box,
+      .second-box,
+      .third-box {
+        width: 100%;
+        padding: 25px 0;
+      }
+    }
+  }
 </style>

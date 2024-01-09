@@ -65,7 +65,6 @@
         }
       }
     }
-
   }
 
   .whats-app-button {
@@ -91,6 +90,67 @@
   @media (min-width: 1400px) {
     nav {
       width: 1400px;
+    }
+  }
+
+  
+  @media (max-width: 1024px) {
+    
+  nav {
+    display: flex;
+    flex-direction: column;
+
+    .links {
+      color: var(--vt-c-black-mute);
+      width: 100%;
+
+      .nav-link {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        transition: font-size 0.3s ease;
+
+        &:hover {
+          font-weight: 600;
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .logo {
+      margin-bottom: 10px;
+    }
+  }
+    nav {
+      .links {
+        a.nav-link {
+          width: 50px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    nav {
+      .links {
+        a.nav-link {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 300px) {
+    nav {
+      .links {
+        a.nav-link {
+          width: 100%;
+
+          &:not(:last-child) {
+            display: none;
+          }
+        }
+      }
     }
   }
 </style>

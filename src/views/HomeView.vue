@@ -12,7 +12,7 @@
     <CompanyHighlights />
     <SuccessPaths id="mentorias" />
     <MeetYourProfile />
-    <About id="sobre" />
+    <!-- <About id="sobre" /> -->
   </div>
 </template>
 

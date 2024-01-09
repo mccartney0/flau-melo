@@ -60,4 +60,29 @@
       }
     }
   }
+
+  @media (max-width: 1024px) {
+    .wrapper-meet-your-profile {
+      margin-top: 50px;
+
+      .image-container {
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          position: static;
+        }
+      }
+      .content-container {
+        padding: 14px;
+        padding-bottom: 40px;
+        margin-top: 40px;
+        width: 100%;
+        .title {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
 </style>
