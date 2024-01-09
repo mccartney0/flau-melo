@@ -36,7 +36,7 @@
     margin: 220px 0;
 
     img {
-      height: max-content;
+      position: relative;
     }
 
     .about-container {
@@ -61,6 +61,23 @@
               padding: 2px;
             }
           }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .wrapper-about {
+      margin: 100px 0;
+      display: block;
+      img {
+        margin: 0 auto;
+        height: 350px;
+      }
+      .about-container {
+        text-align: center;
+        .content {
+          width: 100%;
         }
       }
     }
