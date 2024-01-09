@@ -2,8 +2,8 @@
 <script setup lang="ts">
   import ButtonHighlight from '@/components/ButtonHighlight.vue';
 
-  const scrollToSection = (id) => {
-    const targetElement = document.getElementById(id);
+  const scrollToSection = (sectionName: string) => {
+    const targetElement = document.getElementById(sectionName);
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: 'smooth' });
     }
