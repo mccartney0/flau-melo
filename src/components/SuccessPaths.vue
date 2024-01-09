@@ -108,9 +108,7 @@
           font-size: 2rem;
         }
         .square-container {
-          top: -30px;
-          right: 10px;
-          z-index: -1;
+          display: none;
         }
       }
     }
