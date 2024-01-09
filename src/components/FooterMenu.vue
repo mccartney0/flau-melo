@@ -4,7 +4,7 @@ const currentYear = new Date().getFullYear();
 
 <template>
   <footer class="flex justify-center flex-col items-center gap-5 p-10">
-    <img src="@/assets/logo-black.svg" alt="Flau Melo Logo">
+    <img src="@/assets/logo-black.png" alt="Flau Melo Logo">
     <p>© {{ currentYear }} Todos os direitos reservados.</p>
   </footer>
 </template>
