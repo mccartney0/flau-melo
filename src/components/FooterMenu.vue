@@ -16,7 +16,8 @@ const currentYear = new Date().getFullYear();
     width: 100%;
 
     img {
-      max-width: 106px;
+      width: 106px;
+      max-width: 100%;
     }
 
     p {

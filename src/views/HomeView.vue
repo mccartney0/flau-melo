@@ -8,9 +8,9 @@
 
 <template>
   <div class="home">
-    <BannerIntro />
-    <CompanyHighlights id="mentorias"/>
-    <SuccessPaths />
+    <BannerIntro id="home" />
+    <CompanyHighlights />
+    <SuccessPaths id="mentorias" />
     <MeetYourProfile />
     <About id="sobre" />
   </div>
