@@ -1,12 +1,19 @@
 
 <script setup lang="ts">
+  import { ref } from 'vue';
   import ButtonHighlight from '@/components/ButtonHighlight.vue';
+
+  const isWhatsAppButtonActive = ref(false);
 
   const scrollToSection = (sectionName: string) => {
     const targetElement = document.getElementById(sectionName);
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: 'smooth' });
     }
+  }
+
+  const animateWhatsAppButton = (isActive: boolean) => {
+    isWhatsAppButtonActive.value = isActive;
   }
 </script>
 
@@ -29,6 +36,16 @@
         />
       </div>
     </nav>
+
+    <a
+      class="whats-app-button flex justify-center items-center"
+      @mouseover="() => animateWhatsAppButton(true)"
+      @mouseout="() => animateWhatsAppButton(false)"
+      href="https://api.whatsapp.com/send?phone=556699529479&text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20um%20pouco%20mais%20sobre%20os%20treinamentos."
+      target="_blank"
+    >
+      <i class="bi bi-whatsapp" style="font-size: 1.7rem"></i>
+    </a>
   </header>
 </template>
 
@@ -49,6 +66,26 @@
       }
     }
 
+  }
+
+  .whats-app-button {
+    cursor: pointer;
+    position: fixed;
+    background-color: #28D230;
+    color: var(--vt-c-white);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    right: 20px;
+    bottom: 20px;
+
+    transition: transform 0.3s ease;
+    z-index: 99;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   @media (min-width: 1400px) {
