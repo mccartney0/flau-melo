@@ -20,7 +20,7 @@
     },
     {
       id: 4,
-      label: 'DISC Seleção + Treinamento Coletivo (Colaboradores)',
+      label: 'Teinamento Coletivo + DISC Seleção (Colaboradores)',
       content: 'Recrutamento e seleção mais eficientes! Uma poderosa ferramenta para se ter na hora da contratação ou para  avaliar colaboradores para se saber qual ocomportamento deles quando submetidos à situações específicas. O DISC Seleção destaca as características comportamentais das pessoas como forças, motivações , '
     },
     {
