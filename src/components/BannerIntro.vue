@@ -6,7 +6,7 @@
 <template>
   <div class="wrapper-banner-intro">
     <div class="banner flex justify-around items-center">
-      <img class="background-image" src="@/assets/bg.png" alt="Background">
+      <img class="background-image" src="@/assets/bg.png" alt="Flau Melo, Background">
 
       <div class="banner-container">
         <div class="banner-message mb-10 text-2xl">
@@ -24,7 +24,7 @@
       </div>
 
       <div class="image-container mt-28">
-        <img class="flaudiene-image" src="@/assets/flaudiene-corpo-inteiro.png" alt="Flaudiene Melo">
+        <img class="flaudiene-image" src="@/assets/flau-melo.png" alt="Flau Melo">
       </div>
     </div>
   </div>

@@ -33,11 +33,11 @@
 
 <template>
   <div class="wrapper-success-paths gap-20 flex justify-around">
-    <img class="flaudiene-image-2" src="@/assets/flaudiene-corpo-inteiro-2.png" alt="">
+    <img class="flaudiene-image-2" src="@/assets/flau-melo-2.png" alt="Flau Melo">
 
     <div class="success-paths-container">
       <div class="square-container">
-        <img class="two-squares" src="@/assets/two-square.svg" alt="Squares">
+        <img class="two-squares" src="@/assets/two-square.svg" alt="Flau Melo, Squares">
       </div>
 
       <div class="title-container mb-28">
