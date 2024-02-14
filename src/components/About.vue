@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper-about flex justify-evenly gap-10">
-    <img src="@/assets/flaudiene-corpo-inteiro-3.png" alt="Flau Melo">
+    <img src="@/assets/flau-melo-3.png" alt="Flau Melo">
 
     <div class="about-container">
       <div class="title text-3xl my-8">

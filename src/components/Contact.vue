@@ -6,7 +6,7 @@
 <template>
   <div class="wrapper-meet-your-profile">
     <div class="image-container">
-      <img src="@/assets/flaudiene-contact.jpeg" alt="Flau Melo">
+      <img src="@/assets/flau-melo-contact.jpeg" alt="Flau Melo">
     </div>
 
     <div class="content-container p-20">
@@ -27,14 +27,14 @@
 
         <div class="instagram">
           <a class="flex gap-4 items-center" href="https://www.instagram.com/flaudiene_melo" target="_blank">
-            <img src="@/assets/instagram-icon.svg" alt="Instagram icon">
+            <img src="@/assets/instagram-icon.svg" alt="Flau Melo, Instagram icon">
             <p>flaudiene_melo</p>
           </a>
         </div>
 
         <div class="youtube">
           <a class="flex gap-4 items-center" href="https://www.youtube.com/@FlauMeloCoach" target="_blank">
-            <img src="@/assets/youtube-icon.png" alt="Youtube icon">
+            <img src="@/assets/youtube-icon.png" alt="Flau Melo, Youtube icon">
             <p>FlauMeloCoach</p>
           </a>
         </div>

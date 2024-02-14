@@ -21,7 +21,7 @@
   <header>
     <nav class="flex items-center justify-evenly pt-4">
       <div class="logo">
-        <img src="@/assets/logo.png" alt="Logo">
+        <img src="@/assets/logo.png" alt="Flau Melo, Logo">
       </div>
 
       <div class="links flex items-center justify-evenly">
