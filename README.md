@@ -1,52 +1,71 @@
-# flau-melo
+# Flau Melo Mentorias
 
-This template should help get you started developing with Vue 3 in Vite.
+Landing page construída com Vue 3 e Vite para apresentar os serviços de mentoria, consultoria e conteúdos educacionais de Flau Melo. O site destaca a jornada de evolução profissional das mentoradas, depoimentos em formato de highlights e um canal direto de contato para novas parcerias.
 
-## Recommended IDE Setup
+## Visão geral
+- **Objetivo**: gerar credibilidade para a mentora e facilitar o contato para contratação dos serviços.
+- **Público-alvo**: profissionais de marketing e tecnologia que buscam orientação personalizada.
+- **Entrega principal**: experiência single-page otimizada para dispositivos móveis e desktops.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Seções da landing page
+- **Banner inicial**: chamada para ação que aponta para as mentorias disponíveis.
+- **Destaques da empresa**: cartões com diferenciais competitivos e métricas sociais.
+- **Caminhos para o sucesso**: jornadas de desenvolvimento pessoal com CTA para agendamento.
+- **Perfil da mentora**: biografia, competências e valores de atuação.
+- **Depoimentos em vídeo**: destaques com trechos curtos de feedback das mentoradas.
+- **Contato**: formulário e informações diretas (e-mail, telefone, redes sociais).
 
-## Type Support for `.vue` Imports in TS
+## Stack principal
+- [Vue 3](https://vuejs.org/) com sintaxe `<script setup>`
+- [Vite](https://vitejs.dev/) para bundler e servidor de desenvolvimento
+- [Vue Router](https://router.vuejs.org/) para navegação entre seções
+- [Pinia](https://pinia.vuejs.org/) preparado para gerenciamento de estado global
+- [Tailwind CSS](https://tailwindcss.com/) aliado a SCSS modular
+- [Vitest](https://vitest.dev/) para testes unitários
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Pré-requisitos
+- Node.js 18 ou superior
+- npm 9 ou superior
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Como executar o projeto
+1. Clone o repositório e acesse a pasta `flau-melo`.
+2. Instale as dependências com `npm install`.
+3. Rode `npm run dev` para iniciar o servidor com hot-reload em `http://localhost:5173`.
+4. Para gerar uma build de produção, use `npm run build` e sirva a pasta `dist/` com `npm run preview`.
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+## Scripts npm
+```bash
+npm install        # instala as dependências
+npm run dev        # inicia o servidor de desenvolvimento
+npm run build      # gera o build otimizado para produção em dist/
+npm run preview    # serve localmente o build de produção
+npm run test:unit  # executa a suíte de testes unitários com Vitest
+npm run lint       # roda o ESLint sobre o código-fonte
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+## Estrutura do projeto
+```
+src/
+├─ assets/              # imagens e recursos estáticos
+├─ components/          # componentes reutilizáveis da landing page
+├─ router/              # definição das rotas principais
+├─ stores/              # stores do Pinia para estado compartilhado
+├─ views/               # páginas de alto nível renderizadas pelo router
+├─ main.ts              # ponto de entrada da aplicação
+└─ App.vue              # layout raiz com Header e Footer
 ```
 
-### Type-Check, Compile and Minify for Production
+## Fluxo de contribuição
+1. Crie um fork do repositório ou abra um branch a partir de `main`.
+2. Siga as orientações descritas em [`AGENTS.md`](./AGENTS.md) para manter o padrão do projeto.
+3. Utilize commits descritivos e em português.
+4. Execute `npm run test:unit` e `npm run lint` antes de abrir um Pull Request.
+5. Documente mudanças significativas no README e, quando houver alterações visuais, inclua capturas de tela.
 
-```sh
-npm run build
-```
+## Qualidade e testes
+- Priorize a criação de testes unitários para componentes que contenham lógica ou cálculos.
+- Componentes puramente visuais podem ser validados com snapshots ou revisões manuais.
+- Automatize verificações com os scripts `npm run test:unit` e `npm run lint`.
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## Licença
+Este projeto está disponível sob os termos definidos pela mantenedora. Entre em contato para obter mais detalhes sobre a utilização.
